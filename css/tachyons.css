@@ -554,11 +554,11 @@ img { max-width: 100%; }
    -l  = large
 
  */
-.shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
-.shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
-.shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+.shadow-1 { box-shadow: 0 0 4px 0 rgba( 0, 0, 0, .085 ); }
+.shadow-2 { box-shadow: 0 0 8px 0 rgba( 0, 0, 0, .085 ); }
+.shadow-3 { box-shadow: 2px 2px 4px 0 rgba( 0, 0, 0, .085 ); }
+.shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .085 ); }
+.shadow-5 { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .085 ); }
 /*
 
    CODE
@@ -917,11 +917,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/elements/links/
 
 */
-.link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:link, .link:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:hover { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; outline: 1px dotted currentColor; }
+.link { text-decoration: none; transition: color .15s ease-in; }
+.link:link, .link:visited { transition: color .15s ease-in; }
+.link:hover { transition: color .15s ease-in; }
+.link:active { transition: color .15s ease-in; }
+.link:focus { transition: color .15s ease-in; outline: 1px dotted currentColor; }
 /*
 
    LISTS
@@ -1111,8 +1111,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1126,6 +1126,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .black-20 { color: rgba( 0, 0, 0, .2 ); }
 .black-10 { color: rgba( 0, 0, 0, .1 ); }
 .black-05 { color: rgba( 0, 0, 0, .05 ); }
+.black-text { color: #3e3866; }
 .white-90 { color: rgba( 255, 255, 255, .9 ); }
 .white-80 { color: rgba( 255, 255, 255, .8 ); }
 .white-70 { color: rgba( 255, 255, 255, .7 ); }
@@ -1565,6 +1566,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .ml5 { margin-left: 4rem; }
 .ml6 { margin-left: 8rem; }
 .ml7 { margin-left: 16rem; }
+.ml-auto { margin-left: auto; }
 .mr0 { margin-right: 0; }
 .mr1 { margin-right: .25rem; }
 .mr2 { margin-right: .5rem; }
@@ -1573,6 +1575,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mr5 { margin-right: 4rem; }
 .mr6 { margin-right: 8rem; }
 .mr7 { margin-right: 16rem; }
+.mr-auto { margin-right: auto; }
 .mb0 { margin-bottom: 0; }
 .mb1 { margin-bottom: .25rem; }
 .mb2 { margin-bottom: .5rem; }
@@ -1876,16 +1879,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Dim element on hover by adding the dim class.
 
 */
-.dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+.dim { opacity: 1; transition: opacity .15s ease-in; }
+.dim:hover, .dim:focus { opacity: .5; transition: opacity .15s ease-in; }
+.dim:active { opacity: .8; transition: opacity .15s ease-out; }
 /*
 
   Animate opacity to 100% on hover by adding the glow class.
 
 */
-.glow { -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.glow:hover, .glow:focus { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.glow { transition: opacity .15s ease-in; }
+.glow:hover, .glow:focus { opacity: 1; transition: opacity .15s ease-in; }
 /*
 
   Hide child & reveal on hover:
@@ -1900,15 +1903,15 @@ code, .code { font-family: Consolas, monaco, monospace; }
     <div class="child"> Hidden until hover or focus </div>
   </div>
 */
-.hide-child .child { opacity: 0; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
+.hide-child .child { opacity: 0; transition: opacity .15s ease-in; }
+.hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child { opacity: 1; transition: opacity .15s ease-in; }
 .underline-hover:hover, .underline-hover:focus { text-decoration: underline; }
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
-.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-out; transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
+.grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
 .grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
-.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); -webkit-transition: -webkit-transform .25s ease-in-out; transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
+.grow-large { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-in-out; transition: transform .25s ease-in-out; transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out; }
 .grow-large:hover, .grow-large:focus { -webkit-transform: scale( 1.2 ); transform: scale( 1.2 ); }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
@@ -1919,12 +1922,12 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Performant box-shadow animation pattern from 
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
 */
-.shadow-hover { cursor: pointer; position: relative; -webkit-transition: all .5s cubic-bezier( .165, .84, .44, 1 ); transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
-.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; -webkit-transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover { cursor: pointer; position: relative; transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
+.shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
 /* Combine with classes in skins and skins-pseudo for 
  * many different transition possibilities. */
-.bg-animate, .bg-animate:hover, .bg-animate:focus { -webkit-transition: background-color .15s ease-in-out; transition: background-color .15s ease-in-out; }
+.bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
 /*
 
   Z-INDEX
@@ -1987,9 +1990,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .nested-copy-indent p+p { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
 .nested-copy-seperator p+p { margin-top: 1.5em; }
 .nested-img img { width: 100%; max-width: 100%; display: block; }
-.nested-links a { color: #357edd; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.nested-links a:hover { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.nested-links a:focus { color: #96ccff; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
+.nested-links a { color: #357edd; transition: color .15s ease-in; }
+.nested-links a:hover { color: #96ccff; transition: color .15s ease-in; }
+.nested-links a:focus { color: #96ccff; transition: color .15s ease-in; }
 /*
 
   STYLES
@@ -2126,11 +2129,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-ns { border-right-width: 0; }
  .bb-0-ns { border-bottom-width: 0; }
  .bl-0-ns { border-left-width: 0; }
- .shadow-1-ns { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-ns { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-ns { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-ns { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
- .shadow-5-ns { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-1-ns { box-shadow: 0 0 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-2-ns { box-shadow: 0 0 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-3-ns { box-shadow: 2px 2px 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-4-ns { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-5-ns { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .085 ); }
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
  .right-0-ns { right: 0; }
@@ -2376,6 +2379,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ml5-ns { margin-left: 4rem; }
  .ml6-ns { margin-left: 8rem; }
  .ml7-ns { margin-left: 16rem; }
+ .ml-auto-ns { margin-left: auto; }
  .mr0-ns { margin-right: 0; }
  .mr1-ns { margin-right: .25rem; }
  .mr2-ns { margin-right: .5rem; }
@@ -2384,6 +2388,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mr5-ns { margin-right: 4rem; }
  .mr6-ns { margin-right: 8rem; }
  .mr7-ns { margin-right: 16rem; }
+ .mr-auto-ns { margin-right: auto; }
  .mb0-ns { margin-bottom: 0; }
  .mb1-ns { margin-bottom: .25rem; }
  .mb2-ns { margin-bottom: .5rem; }
@@ -2541,11 +2546,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-m { border-right-width: 0; }
  .bb-0-m { border-bottom-width: 0; }
  .bl-0-m { border-left-width: 0; }
- .shadow-1-m { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-m { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-m { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
- .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-1-m { box-shadow: 0 0 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-2-m { box-shadow: 0 0 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-3-m { box-shadow: 2px 2px 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-4-m { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-5-m { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .085 ); }
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -2791,6 +2796,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ml5-m { margin-left: 4rem; }
  .ml6-m { margin-left: 8rem; }
  .ml7-m { margin-left: 16rem; }
+ .ml-auto-m { margin-left: auto; }
  .mr0-m { margin-right: 0; }
  .mr1-m { margin-right: .25rem; }
  .mr2-m { margin-right: .5rem; }
@@ -2799,6 +2805,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mr5-m { margin-right: 4rem; }
  .mr6-m { margin-right: 8rem; }
  .mr7-m { margin-right: 16rem; }
+ .mr-auto-m { margin-right: auto; }
  .mb0-m { margin-bottom: 0; }
  .mb1-m { margin-bottom: .25rem; }
  .mb2-m { margin-bottom: .5rem; }
@@ -2956,11 +2963,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .br-0-l { border-right-width: 0; }
  .bb-0-l { border-bottom-width: 0; }
  .bl-0-l { border-left-width: 0; }
- .shadow-1-l { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-2-l { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-3-l { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
- .shadow-4-l { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
- .shadow-5-l { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 ); }
+ .shadow-1-l { box-shadow: 0 0 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-2-l { box-shadow: 0 0 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-3-l { box-shadow: 2px 2px 4px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-4-l { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .085 ); }
+ .shadow-5-l { box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .085 ); }
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }
@@ -3206,6 +3213,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ml5-l { margin-left: 4rem; }
  .ml6-l { margin-left: 8rem; }
  .ml7-l { margin-left: 16rem; }
+ .ml-auto-l { margin-left: auto; }
  .mr0-l { margin-right: 0; }
  .mr1-l { margin-right: .25rem; }
  .mr2-l { margin-right: .5rem; }
@@ -3214,6 +3222,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .mr5-l { margin-right: 4rem; }
  .mr6-l { margin-right: 8rem; }
  .mr7-l { margin-right: 16rem; }
+ .mr-auto-l { margin-right: auto; }
  .mb0-l { margin-bottom: 0; }
  .mb1-l { margin-bottom: .25rem; }
  .mb2-l { margin-bottom: .5rem; }
