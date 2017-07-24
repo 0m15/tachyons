@@ -93,8 +93,6 @@
 .bg-white-20 {        background-color: var(--white-20); }
 .bg-white-10 {        background-color: var(--white-10); }
 
-
-
 /* Background colors */
 
 .bg-black {         background-color: var(--black); }
@@ -136,3 +134,15 @@
 .bg-washed-yellow { background-color: var(--washed-yellow); }
 .bg-washed-red { background-color: var(--washed-red); }
 .bg-inherit { background-color: inherit; }
+
+/* custom */
+.bg-primary-10 {      background-color: var(--primary-10);  }
+.bg-primary-20 {      background-color: var(--primary-20);  }
+.bg-primary-30 {      background-color: var(--primary-30);  }
+.bg-primary-40 {      background-color: var(--primary-40);  }
+.bg-primary-50 {      background-color: var(--primary-50);  }
+.bg-primary-60 {      background-color: var(--primary-60);  }
+.bg-primary-70 {      background-color: var(--primary-70);  }
+.bg-primary-80 {      background-color: var(--primary-80);  }
+.bg-primary-90 {      background-color: var(--primary-90);  }
+.bg-primary-100 {      background-color: var(--primary-100);  }

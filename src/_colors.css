@@ -78,4 +78,20 @@
   --washed-yellow:  #fffceb;
   --washed-red:  #ffdfdf;
 
+  --primary: #446DE8;
+  --secondary: #E91E63;
+  --dark-primary: #1F2442;
+  --dark-secondary: #FF495E;
+  --washed-primary: #868A95;
+
+  --primary-10: rgba(32, 37, 65, .1);
+  --primary-20: rgba(32, 37, 65, .2);
+  --primary-30: rgba(32, 37, 65, .3);
+  --primary-40: rgba(32, 37, 65, .4);
+  --primary-50: rgba(32, 37, 65, .5);
+  --primary-60: rgba(32, 37, 65, .6);
+  --primary-70: rgba(32, 37, 65, .7);
+  --primary-80: rgba(32, 37, 65, .8);
+  --primary-90: rgba(32, 37, 65, .9);
+  --primary-100: rgba(32, 37, 65, 1);
 }
