@@ -79,7 +79,7 @@
   --washed-red:  #ffdfdf;
 
   --primary: #446DE8;
-  --secondary: #E91E63;
+  --secondary: #DF9A37; /*rgba(223, 154, 55, 1.0);*/
   --dark-primary: #1F2442;
   --dark-secondary: #FF495E;
   --washed-primary: #868A95;
@@ -93,5 +93,5 @@
   --primary-70: rgba(32, 37, 65, .7);
   --primary-80: rgba(32, 37, 65, .8);
   --primary-90: rgba(32, 37, 65, .9);
-  --primary-100: rgba(32, 37, 65, 1);
+  --primary-95: rgba(32, 37, 65, .95);
 }

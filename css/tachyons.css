@@ -1233,6 +1233,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-washed-red { background-color: #ffdfdf; }
 .bg-inherit { background-color: inherit; }
 /* custom */
+.primary { color: #446de8; }
+.dark-primary { color: #1f2442; }
+.secondary { color: #df9a37; }
+.washed-primary { color: #868a95; }
+.bg-dark-primary { background-color: #1f2442; }
+.bg-washed-primary { background-color: #868a95; }
+.bg-primary { background-color: #446de8; }
 .bg-primary-10 { background-color: rgba( 32, 37, 65, .1 ); }
 .bg-primary-20 { background-color: rgba( 32, 37, 65, .2 ); }
 .bg-primary-30 { background-color: rgba( 32, 37, 65, .3 ); }
@@ -1242,7 +1249,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-primary-70 { background-color: rgba( 32, 37, 65, .7 ); }
 .bg-primary-80 { background-color: rgba( 32, 37, 65, .8 ); }
 .bg-primary-90 { background-color: rgba( 32, 37, 65, .9 ); }
-.bg-primary-100 { background-color: rgba( 32, 37, 65, 1 ); }
+.bg-primary-95 { background-color: rgba( 32, 37, 65, .95 ); }
+.bg-secondary { background-color: #df9a37; }
+.b--primary { border-color: #446de8; }
+.b--secondary { border-color: #df9a37; }
 /* 
   
    SKINS:PSEUDO
@@ -2025,6 +2035,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Colors
 
 */
+:root {/*rgba(223, 154, 55, 1.0);*/ }
 /*
 
   CUSTOM MEDIA QUERIES
