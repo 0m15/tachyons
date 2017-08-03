@@ -238,7 +238,7 @@ template { display: none; }
 [hidden] { display: none; }
 /* Modules */
 /*
- 
+
   BOX SIZING
 
 */
@@ -826,7 +826,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /*
 
    FORMS
-   
+
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
@@ -1128,6 +1128,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .black-10 { color: rgba( 0, 0, 0, .1 ); }
 .black-05 { color: rgba( 0, 0, 0, .05 ); }
 .black-text { color: #3e3866; }
+
 .white-90 { color: rgba( 255, 255, 255, .9 ); }
 .white-80 { color: rgba( 255, 255, 255, .8 ); }
 .white-70 { color: rgba( 255, 255, 255, .7 ); }
@@ -1253,13 +1254,13 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-secondary { background-color: #df9a37; }
 .b--primary { border-color: #446de8; }
 .b--secondary { border-color: #df9a37; }
-/* 
-  
+/*
+
    SKINS:PSEUDO
 
    Customize the color of an element when
    it is focused or hovered over.
- 
+
  */
 .hover-black:hover { color: #000; }
 .hover-black:focus { color: #000; }
@@ -1938,16 +1939,16 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .grow-large:active { -webkit-transform: scale( .95 ); transform: scale( .95 ); }
 /* Add pointer on hover */
 .pointer:hover { cursor: pointer; }
-/* 
+/*
    Add shadow on hover.
 
-   Performant box-shadow animation pattern from 
-   http://tobiasahlin.com/blog/how-to-animate-box-shadow/ 
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 .shadow-hover { cursor: pointer; position: relative; transition: all .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover::after { content: ''; box-shadow: 0 0 16px 2px rgba( 0, 0, 0, .2 ); opacity: 0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: opacity .5s cubic-bezier( .165, .84, .44, 1 ); }
 .shadow-hover:hover::after, .shadow-hover:focus::after { opacity: 1; }
-/* Combine with classes in skins and skins-pseudo for 
+/* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 .bg-animate, .bg-animate:hover, .bg-animate:focus { transition: background-color .15s ease-in-out; }
 /*
