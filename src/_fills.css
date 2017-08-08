@@ -1,0 +1,91 @@
+/*
+
+   FILLS
+
+   Classes for setting svg elements fill colors
+
+*/
+
+/* Tachyons defaults */
+
+.fill-black-90 {         fill: var(--black-90); }
+.fill-black-80 {         fill: var(--black-80); }
+.fill-black-70 {         fill: var(--black-70); }
+.fill-black-60 {         fill: var(--black-60); }
+.fill-black-50 {         fill: var(--black-50); }
+.fill-black-40 {         fill: var(--black-40); }
+.fill-black-30 {         fill: var(--black-30); }
+.fill-black-20 {         fill: var(--black-20); }
+.fill-black-10 {         fill: var(--black-10); }
+.fill-black-05 {         fill: var(--black-05); }
+
+.fill-black-text {       fill: var(--text);     }
+
+.fill-white-90 {         fill: var(--white-90); }
+.fill-white-80 {         fill: var(--white-80); }
+.fill-white-70 {         fill: var(--white-70); }
+.fill-white-60 {         fill: var(--white-60); }
+.fill-white-50 {         fill: var(--white-50); }
+.fill-white-40 {         fill: var(--white-40); }
+.fill-white-30 {         fill: var(--white-30); }
+.fill-white-20 {         fill: var(--white-20); }
+.fill-white-10 {         fill: var(--white-10); }
+
+.fill-black {         fill: var(--black); }
+.fill-near-black {    fill: var(--near-black); }
+.fill-dark-gray {     fill: var(--dark-gray); }
+.fill-mid-gray {      fill: var(--mid-gray); }
+.fill-gray {          fill: var(--gray); }
+.fill-silver  {       fill: var(--silver); }
+.fill-light-silver {  fill: var(--light-silver); }
+.fill-moon-gray {     fill: var(--moon-gray); }
+.fill-light-gray {    fill: var(--light-gray); }
+.fill-near-white {    fill: var(--near-white); }
+.fill-white {         fill: var(--white); }
+
+.fill-dark-red { fill: var(--dark-red); }
+.fill-red { fill: var(--red); }
+.fill-light-red { fill: var(--light-red); }
+.fill-orange { fill: var(--orange); }
+.fill-gold { fill: var(--gold); }
+.fill-yellow { fill: var(--yellow); }
+.fill-light-yellow { fill: var(--light-yellow); }
+.fill-purple { fill: var(--purple); }
+.fill-light-purple { fill: var(--light-purple); }
+.fill-dark-pink { fill: var(--dark-pink); }
+.fill-hot-pink { fill: var(--hot-pink); }
+.fill-pink { fill: var(--pink); }
+.fill-light-pink { fill: var(--light-pink); }
+.fill-dark-green { fill: var(--dark-green); }
+.fill-green { fill: var(--green); }
+.fill-light-green { fill: var(--light-green); }
+.fill-navy { fill: var(--navy); }
+.fill-dark-blue { fill: var(--dark-blue); }
+.fill-blue { fill: var(--blue); }
+.fill-light-blue { fill: var(--light-blue); }
+.fill-lightest-blue { fill: var(--lightest-blue); }
+.fill-washed-blue { fill: var(--washed-blue); }
+.fill-washed-green { fill: var(--washed-green); }
+.fill-washed-yellow { fill: var(--washed-yellow); }
+.fill-washed-red { fill: var(--washed-red); }
+.fill-color-inherit { fill: inherit; }
+
+/* Custom colors */
+.fill-primary        { fill: var(--primary); }
+.fill-dark-primary   { fill: var(--dark-primary); }
+.fill-secondary      { fill: var(--secondary); }
+.fill-washed-primary { fill: var(--washed-primary); }
+
+.fill-primary     { fill: var(--primary); }
+.fill-primary-10  { fill: var(--primary-10); }
+.fill-primary-20  { fill: var(--primary-20); }
+.fill-primary-30  { fill: var(--primary-30); }
+.fill-primary-40  { fill: var(--primary-40); }
+.fill-primary-50  { fill: var(--primary-50); }
+.fill-primary-60  { fill: var(--primary-60); }
+.fill-primary-70  { fill: var(--primary-70); }
+.fill-primary-80  { fill: var(--primary-80); }
+.fill-primary-90  { fill: var(--primary-90); }
+.fill-primary-95  { fill: var(--primary-95);}
+
+.fill-secondary   { fill: var(--secondary); }

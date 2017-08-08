@@ -1,0 +1,91 @@
+/*
+
+   STROKES
+
+   Classes for setting svg elements stroke colors
+
+*/
+
+/* Tachyons defaults */
+
+.stroke-black-90 {         stroke: var(--black-90); }
+.stroke-black-80 {         stroke: var(--black-80); }
+.stroke-black-70 {         stroke: var(--black-70); }
+.stroke-black-60 {         stroke: var(--black-60); }
+.stroke-black-50 {         stroke: var(--black-50); }
+.stroke-black-40 {         stroke: var(--black-40); }
+.stroke-black-30 {         stroke: var(--black-30); }
+.stroke-black-20 {         stroke: var(--black-20); }
+.stroke-black-10 {         stroke: var(--black-10); }
+.stroke-black-05 {         stroke: var(--black-05); }
+
+.stroke-black-text {       stroke: var(--text);     }
+
+.stroke-white-90 {         stroke: var(--white-90); }
+.stroke-white-80 {         stroke: var(--white-80); }
+.stroke-white-70 {         stroke: var(--white-70); }
+.stroke-white-60 {         stroke: var(--white-60); }
+.stroke-white-50 {         stroke: var(--white-50); }
+.stroke-white-40 {         stroke: var(--white-40); }
+.stroke-white-30 {         stroke: var(--white-30); }
+.stroke-white-20 {         stroke: var(--white-20); }
+.stroke-white-10 {         stroke: var(--white-10); }
+
+.stroke-black         {         stroke: var(--black); }
+.stroke-near-black    {    stroke: var(--near-black); }
+.stroke-dark-gray     {     stroke: var(--dark-gray); }
+.stroke-mid-gray      {      stroke: var(--mid-gray); }
+.stroke-gray          {          stroke: var(--gray); }
+.stroke-silver        {       stroke: var(--silver); }
+.stroke-light-silver  {  stroke: var(--light-silver); }
+.stroke-moon-gray     {     stroke: var(--moon-gray); }
+.stroke-light-gray    {    stroke: var(--light-gray); }
+.stroke-near-white    {    stroke: var(--near-white); }
+.stroke-white         {         stroke: var(--white); }
+
+.stroke-dark-red      { stroke: var(--dark-red); }
+.stroke-red           { stroke: var(--red); }
+.stroke-light-red     { stroke: var(--light-red); }
+.stroke-orange  { stroke: var(--orange); }
+.stroke-gold  { stroke: var(--gold); }
+.stroke-yellow  { stroke: var(--yellow); }
+.stroke-light-yellow  { stroke: var(--light-yellow); }
+.stroke-purple  { stroke: var(--purple); }
+.stroke-light-purple  { stroke: var(--light-purple); }
+.stroke-dark-pink   { stroke: var(--dark-pink); }
+.stroke-hot-pink  { stroke: var(--hot-pink); }
+.stroke-pink  { stroke: var(--pink); }
+.stroke-light-pink  { stroke: var(--light-pink); }
+.stroke-dark-green  { stroke: var(--dark-green); }
+.stroke-green   { stroke: var(--green); }
+.stroke-light-green   { stroke: var(--light-green); }
+.stroke-navy  { stroke: var(--navy); }
+.stroke-dark-blue   { stroke: var(--dark-blue); }
+.stroke-blue  { stroke: var(--blue); }
+.stroke-light-blue  { stroke: var(--light-blue); }
+.stroke-lightest-blue   { stroke: var(--lightest-blue); }
+.stroke-washed-blue   { stroke: var(--washed-blue); }
+.stroke-washed-green  { stroke: var(--washed-green); }
+.stroke-washed-yellow   { stroke: var(--washed-yellow); }
+.stroke-washed-red  { stroke: var(--washed-red); }
+.stroke-color-inherit   { stroke: inherit; }
+
+/* Custom colors */
+.stroke-primary        { stroke: var(--primary); }
+.stroke-dark-primary   { stroke: var(--dark-primary); }
+.stroke-secondary      { stroke: var(--secondary); }
+.stroke-washed-primary { stroke: var(--washed-primary); }
+
+.stroke-primary     { stroke: var(--primary); }
+.stroke-primary-10  { stroke: var(--primary-10); }
+.stroke-primary-20  { stroke: var(--primary-20); }
+.stroke-primary-30  { stroke: var(--primary-30); }
+.stroke-primary-40  { stroke: var(--primary-40); }
+.stroke-primary-50  { stroke: var(--primary-50); }
+.stroke-primary-60  { stroke: var(--primary-60); }
+.stroke-primary-70  { stroke: var(--primary-70); }
+.stroke-primary-80  { stroke: var(--primary-80); }
+.stroke-primary-90  { stroke: var(--primary-90); }
+.stroke-primary-95  { stroke: var(--primary-95);}
+
+.stroke-secondary   { stroke: var(--secondary); }

@@ -81,8 +81,9 @@
   --primary: #446DE8;
   --secondary: #DF9A37; /*rgba(223, 154, 55, 1.0);*/
   --dark-primary: #1F2442;
-  --dark-secondary: #FF495E;
+  --dark-secondary: #;
   --washed-primary: #868A95;
+  --washed-secondary: #FF495E;
 
   --primary-10: rgba(32, 37, 65, .1);
   --primary-20: rgba(32, 37, 65, .2);
