@@ -95,4 +95,15 @@
   --primary-80: rgba(32, 37, 65, .8);
   --primary-90: rgba(32, 37, 65, .9);
   --primary-95: rgba(32, 37, 65, .95);
+
+  --secondary-10: rgba(223, 154, 55, .1);
+  --secondary-20: rgba(223, 154, 55, .2);
+  --secondary-30: rgba(223, 154, 55, .3);
+  --secondary-40: rgba(223, 154, 55, .4);
+  --secondary-50: rgba(223, 154, 55, .5);
+  --secondary-60: rgba(223, 154, 55, .6);
+  --secondary-70: rgba(223, 154, 55, .7);
+  --secondary-80: rgba(223, 154, 55, .8);
+  --secondary-90: rgba(223, 154, 55, .9);
+  --secondary-95: rgba(223, 154, 55, .95);
 }

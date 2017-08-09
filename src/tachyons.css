@@ -80,6 +80,8 @@
 @import './_z-index';
 @import './_nested';
 @import './_styles';
+@import './_fills';
+@import './_strokes';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */

@@ -155,7 +155,18 @@
 .bg-primary-80  { background-color: var(--primary-80); }
 .bg-primary-90  { background-color: var(--primary-90); }
 .bg-primary-95 { background-color: var(--primary-95);}
+
 .bg-secondary   { background-color: var(--secondary); }
+.bg-secondary-10  { background-color: var(--secondary-10); }
+.bg-secondary-20  { background-color: var(--secondary-20); }
+.bg-secondary-30  { background-color: var(--secondary-30); }
+.bg-secondary-40  { background-color: var(--secondary-40); }
+.bg-secondary-50  { background-color: var(--secondary-50); }
+.bg-secondary-60  { background-color: var(--secondary-60); }
+.bg-secondary-70  { background-color: var(--secondary-70); }
+.bg-secondary-80  { background-color: var(--secondary-80); }
+.bg-secondary-90  { background-color: var(--secondary-90); }
+.bg-secondary-95 { background-color: var(--secondary-95);}
 
 .b--primary     { border-color: var(--primary); }
 .b--secondary   { border-color: var(--secondary); }
